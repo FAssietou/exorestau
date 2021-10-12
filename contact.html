@@ -2,15 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Ma première page HTML sur Github">
-    <title>Nous contacter</title>
+    <title>Mon resto| Acceuil</title>
 </head>
 <body>
-    <h1>Nous contacter</h1>
-    <form action="contact.html">
-        <fieldset>
-            <legend>Nous Contacter</legend>
-        </fieldset>
-    </form>    
+    <main>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="Menu.html">Nos Menus</a></li>
+                <li><a href="contact.html">Nous contacter</a></li>
+            </ul>
+        </nav>
+        <h1>Pour nous contacter</h1>
+        <form>
+            <label for="Nom">Nom</label>
+            <input type="text" id="Nom" placeholder="Nom">
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" placeholder="Prénom">
+            <label for="Email">Email</label>
+            <input type="email" id="Email" placeholder="Email">
+            <br>
+            <label for="Message">Votre message</label>
+            <textarea type="text" id="Message" placeholder="Votre message"></textarea>
+
+        </form>
+    </main>
+    <footer>
+       <a href="#"><img src="image/facebook-brands.svg" height="30px" width="30px>"</a>
+       <a href="#"><img src="image/instagram-brands.svg" height="30px" width="30px"></a>
+    </footer>
+
 </body>
 </html>
