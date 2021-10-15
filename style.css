@@ -25,11 +25,12 @@ body {
 
 .header-title {
     margin-top: 0;
+    white-space: nowrap;
 }
 
 .header-nav {
     margin: 20px 0;
-    text-align: center;
+
 }
 
 .header-nav a {
@@ -56,8 +57,16 @@ body {
     padding: 10px 20px;
 }
 
-.header img {
-    width: 100%;
-    height: auto;
+.header {
+    display: flex;
+    justify-content: space-between;
 }
 
+.page {
+    display: flex;
+}
+.sidebar {
+    flex:none;
+    width: 250px;
+    background-color: honeydew;
+}
